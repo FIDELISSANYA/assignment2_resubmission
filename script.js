@@ -32,3 +32,9 @@ function akanName() {
     }
 
 }
+function ghanianName() {
+    console.log("got year");
+        akanName() 
+        // let submitForm = document.getElementById('submit').value;
+        // submitForm.submit();
+    }
