@@ -12,7 +12,7 @@
  + [Authors Info](#author-Info)
  
  ## Description
- <p>This is  a website that allows the user to enter his or birthday credentials and outputs the results depending on thei gender Akan names.</p>
+ <p>This is  a website that allows the user to enter his or birthday credentials and outputs the results depending on their gender Akan names.</p>
  
  ## Installation
  
@@ -26,7 +26,7 @@
  
  [Go Back to the top](#portfolio)
  ## Technology Used
- * HTNL - which was used to build the structure of the pages.
+ * HTML - which was used to build the structure of the pages.
  
  * CSS - which was used to style the pages incuding the left aside navigation bar
 
