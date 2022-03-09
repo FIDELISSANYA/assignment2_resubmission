@@ -41,5 +41,28 @@
         <div class="container">
             <p>Please fill the information below to help us understand your Akan name and which day of the week you were born. We will put together a custom quote and be back to you within a second.</p>
         <form action="#" class="form-group bg-danger text-center" id="form_id">
+            <h4>Date of Birth</h4>
+            <label for="Date of Birth"></label><br>
+            <input type="number" id="date" min="1" max="30"><br>
+            <h4>Month of Birth</h4>
+            <label for="Month of Birth"></label><br>
+            <input type="number" id="month" min="1" max="12"><br>
+            <h4>Year of Birth</h4>
+            <label for="Year of Birth"></label><br>
+            <input type="number" id="year"><br>
+            <h4>Centuary of Birth</h4>
+            <label for="Centuary of Birth"></label><br>
+            <input type="number" id="centuary"><br>
+            <h4>Gender</h4>
+            <select id="gender">
+                <option value="gd">Choose Gender</option>
+                <option value="Male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <input type="submit" onclick="ghanianName()" id="submit" value="submit"> 
+            <input type="reset" onclick="detailsReset()" id="reset" value="reset">
+            <div id="test"></div>
+        </form>
+    </section>
 </body>
 </html>
