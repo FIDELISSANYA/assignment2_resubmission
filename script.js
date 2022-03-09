@@ -38,3 +38,7 @@ function ghanianName() {
         // let submitForm = document.getElementById('submit').value;
         // submitForm.submit();
     }
+    function detailsReset() {
+        let formReset = document.getElementById('reset').value;
+        formReset.reset();
+    }
